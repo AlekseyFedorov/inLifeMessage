@@ -14,20 +14,28 @@ import org.springframework.stereotype.Service;
 //@RequiredArgsConstructor
 
 //@Builder
-public class Message {
-    private String title;
-    private String content;
 
-    public Message(String title, String content) {
-        this.title = title;
-        this.content = content;
-    }
+//public record Message(String title, String content) {}
 
-    public String getTitle() {
-        return title;
-    }
+public record Message (
+        String title,
+        String content
+) {}
 
-    public String getContent() {
-        return content;
-    }
-}
+//public class Message {
+//    private String title;
+//    private String content;
+//
+//    public Message(String title, String content) {
+//        this.title = title;
+//        this.content = content;
+//    }
+//
+//    public String getTitle() {
+//        return title;
+//    }
+//
+//    public String getContent() {
+//        return content;
+//    }
+//}
