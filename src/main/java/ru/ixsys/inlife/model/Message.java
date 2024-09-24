@@ -1,8 +1,8 @@
 package ru.ixsys.inlife.model;
 
-import lombok.*;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
+//import lombok.*;
+//import org.springframework.stereotype.Component;
+//import org.springframework.stereotype.Service;
 
 
 //@Data
