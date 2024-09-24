@@ -1,8 +1,19 @@
 package ru.ixsys.inlife.model;
 
+import lombok.*;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-//@Component
+
+//@Data
+//@Getter
+//@Setter
+
+//@NoArgsConstructor
+//@AllArgsConstructor
+//@RequiredArgsConstructor
+
+//@Builder
 public class Message {
     private String title;
     private String content;
@@ -16,15 +27,7 @@ public class Message {
         return title;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
     public String getContent() {
         return content;
-    }
-
-    public void setContent(String content) {
-        this.content = content;
     }
 }
