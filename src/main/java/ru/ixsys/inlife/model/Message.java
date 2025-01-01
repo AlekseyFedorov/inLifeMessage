@@ -19,8 +19,9 @@ package ru.ixsys.inlife.model;
 
 public record Message (
         String title,
-
         String content
+
+        // проверка push commit
 ) {}
 
 //public class Message {
