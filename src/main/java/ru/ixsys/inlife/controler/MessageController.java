@@ -18,6 +18,7 @@ public class MessageController {
                 new Message("title 1", "content 1"),
                 new Message("title 2", "content 2"),
                 new Message("title 3", "content 3")
+
 //                Message.builder().title("title 1").content("content 1").build(),
 //                Message.builder().title("title 2").content("content 2").build(),
 //                Message.builder().title("title 3").content("content 3").build()
